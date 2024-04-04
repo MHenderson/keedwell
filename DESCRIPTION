@@ -1,0 +1,11 @@
+Package: keedwell
+Title: Latin Squares in R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Matthew", "Henderson", , "matthew.james.henderson@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7949-8208"))
+Description: Create and work with latin squares and related designs in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
