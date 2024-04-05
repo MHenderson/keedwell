@@ -1,2 +1,5 @@
 .Rproj.user
 .Rhistory
+keedwell.Rcheck/
+keedwell*.tar.gz
+keedwell*.tgz

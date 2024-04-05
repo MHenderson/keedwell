@@ -1,3 +1,6 @@
 ^keedwell\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^keedwell\.Rcheck$
+^keedwell.*\.tar\.gz$
+^keedwell.*\.tgz$
