@@ -33,8 +33,8 @@ next_row <- function(R, l_order) {
   
   # just the matching itself, as a graph
   mg <- bg |>
-    activate(edges) |>
-    filter(matching)
+    tidygraph::activate(edges) |>
+    dplyr::filter(matching)
   
   EE <- ends(mg, E(mg))
   return(as.numeric(gsub("s", "", EE[,2])))
