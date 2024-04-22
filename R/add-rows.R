@@ -12,10 +12,8 @@
 #' @param R latin rectangle
 #' @param rows empty rows to be filled
 #'
-#' @return
+#' @return A latin rectangle with more rows.
 #' @export
-#'
-#' @examples
 add_rows <- function(R, rows) {
   
   # we assume that the dimension equals

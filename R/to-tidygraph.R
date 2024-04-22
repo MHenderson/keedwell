@@ -6,12 +6,11 @@
 #' vertices for columns and symbols and edges representing
 #' symbols missing from columns.
 #'
-#' @param R
+#' @param R A latin rectangle.
+#' @param l_order Order of R.
 #'
-#' @return
+#' @return A bipartite graph.
 #' @export
-#'
-#' @examples
 to_tidygraph <- function(R, l_order = 3) {
   
   ## VERTEX DATA FRAME
