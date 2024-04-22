@@ -17,7 +17,7 @@
 next_row <- function(R, l_order) {
   bg <- to_tidygraph(R, l_order)
   
-  m <- max_bipartite_match(bg)
+  m <- igraph::max_bipartite_match(bg)
   
   # names of edges in the matching
   matching_names <- match(m$matching, names(m$matching))
@@ -34,6 +34,6 @@ next_row <- function(R, l_order) {
     tidygraph::activate(edges) |>
     dplyr::filter(matching)
   
-  EE <- ends(mg, E(mg))
+  EE <- igraph::ends(mg, igraph::E(mg))
   return(as.numeric(gsub("s", "", EE[,2])))
 }
