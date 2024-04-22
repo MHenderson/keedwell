@@ -9,13 +9,11 @@
 #' missing from columns and then find a maximum
 #' matching in that bipartite graph.
 #'
-#' @param R
-#' @param l_order
+#' @param R A latin square
+#' @param l_order The order of the input latin square
 #'
-#' @return
+#' @return A bipartite graph.
 #' @export
-#'
-#' @examples
 next_row <- function(R, l_order) {
   bg <- to_tidygraph(R, l_order)
   
