@@ -4,3 +4,4 @@
 ^keedwell\.Rcheck$
 ^keedwell.*\.tar\.gz$
 ^keedwell.*\.tgz$
+^.github$
