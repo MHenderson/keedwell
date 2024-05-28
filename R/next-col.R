@@ -5,7 +5,6 @@
 #' @param l_order dimension
 #'
 #' @return a latin rectangle with more columns
-#' @export
 next_col_matching <- function(R, i, l_order) {
   
   n_rows <- max(R$row)
@@ -51,7 +50,6 @@ next_col_matching <- function(R, i, l_order) {
 #' @param l_order dimension
 #'
 #' @return A latin rectangle with more columns
-#' @export
 next_col_random <- function(R, i, l_order) {
   
   n_rows <- max(R$row)

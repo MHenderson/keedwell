@@ -12,7 +12,6 @@
 #' @param l_order size of latin square R is going to be embedded into
 #'
 #' @return The edge data frame.
-#' @export
 edge_tbl <- function(R, i, l_order = 3) {
   
   all_symbols <- 1:l_order

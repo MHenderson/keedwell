@@ -10,7 +10,6 @@
 #' @param l_order Order of R.
 #'
 #' @return A bipartite graph.
-#' @export
 to_tidygraph <- function(R, l_order = 3) {
   
   ## VERTEX DATA FRAME
@@ -40,7 +39,6 @@ to_tidygraph <- function(R, l_order = 3) {
 #' @param n_cols Number of columns.
 #'
 #' @return A bipartite graph.
-#' @export
 to_tidygraph_2 <- function(R, l_order, n_rows, n_cols) {
   
   ## VERTEX DATA FRAME

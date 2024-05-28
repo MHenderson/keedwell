@@ -2,12 +2,3 @@
 
 export(add_cols)
 export(add_rows)
-export(create_latin_square)
-export(edge_tbl)
-export(next_col_matching)
-export(next_col_random)
-export(next_row)
-export(next_row_matching)
-export(next_row_random)
-export(to_tidygraph)
-export(to_tidygraph_2)
