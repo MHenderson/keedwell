@@ -13,7 +13,6 @@
 #' @param l_order The order of the input latin square
 #'
 #' @return A bipartite graph.
-#' @export
 next_row <- function(R, l_order) {
   bg <- to_tidygraph(R, l_order)
   
@@ -45,7 +44,6 @@ next_row <- function(R, l_order) {
 #' @param l_order Order of R
 #'
 #' @return A latin square with more rows.
-#' @export
 next_row_random <- function(R, i, l_order) {
   
   R |>
@@ -75,7 +73,6 @@ next_row_random <- function(R, i, l_order) {
 #' @param l_order Order of R
 #'
 #' @return A latin rectangle with more rows.
-#' @export
 next_row_matching <- function(R, i, l_order) {
   bg <- to_tidygraph(R, l_order)
   
