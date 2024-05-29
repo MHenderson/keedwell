@@ -2,3 +2,4 @@
 
 export(add_cols)
 export(add_rows)
+export(first_row_natural)

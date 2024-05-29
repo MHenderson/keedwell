@@ -13,6 +13,9 @@ add_rows(R, rows, strategy = next_row_matching)
 
 \item{strategy}{row filling strategy}
 }
+\value{
+A latin rectangle
+}
 \description{
 Input is a latin rectangle as a data frame with
 variables for row, column and symbol. Output is
