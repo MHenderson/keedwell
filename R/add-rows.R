@@ -11,10 +11,11 @@
 #'
 #' @param R latin rectangle
 #' @param rows empty rows to be filled
+#' @param strategy row filling strategy
 #'
-#' @return A latin rectangle with more rows.
+#' @return
 #' @export
-add_rows <- function(R, rows) {
+add_rows <- function(R, rows, strategy = next_row_matching) {
   
   # we assume that the dimension equals
   # the number of columns
@@ -22,16 +23,10 @@ add_rows <- function(R, rows) {
   
   for (i in rows) {
     
-    R <- R |>
-      dplyr::bind_rows(
-        tibble::tibble(
-             row = rep(i, l_order),
-          column = 1:l_order,
-          symbol = next_row(R, l_order)
-        )
-      )
+    R <- strategy(R, i, l_order)
     
   }
   
   return(R)
+
 }
