@@ -13,7 +13,7 @@
 #' @param rows empty rows to be filled
 #' @param strategy row filling strategy
 #'
-#' @return
+#' @return A latin rectangle
 #' @export
 add_rows <- function(R, rows, strategy = next_row_matching) {
   
