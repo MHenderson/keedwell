@@ -4,15 +4,14 @@
 \alias{add_rows}
 \title{Embed latin rectangle in a latin square}
 \usage{
-add_rows(R, rows)
+add_rows(R, rows, strategy = next_row_matching)
 }
 \arguments{
 \item{R}{latin rectangle}
 
 \item{rows}{empty rows to be filled}
-}
-\value{
-A latin rectangle with more rows.
+
+\item{strategy}{row filling strategy}
 }
 \description{
 Input is a latin rectangle as a data frame with
