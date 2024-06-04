@@ -2,4 +2,5 @@
 [![keedwell status badge](https://mhenderson.r-universe.dev/badges/keedwell)](https://mhenderson.r-universe.dev/keedwell)
 
 # keedwell
-Latin Squares in R
+
+Completion and embedding of latin squares in R.
